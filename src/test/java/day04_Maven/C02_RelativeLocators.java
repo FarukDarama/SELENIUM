@@ -23,8 +23,6 @@ public class C02_RelativeLocators {
         WebElement BerlinWebElement = driver.findElement(with(By.tagName("li")).below(NYCWebElement).toLeftOf(BayAreaWebElement));
         BerlinWebElement.click();
 
-               String a="123";
-        System.out.println(Integer.valueOf(a));
 
 
     }
